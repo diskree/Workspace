@@ -1,5 +1,5 @@
 wsl --shutdown
-wsl -e bash -lic "rm /home/diskree-wsl/java_error_in_studio*"
+wsl -e bash -lic "rm ~/java_error_in_studio*"
 powershell -command "Get-Service LxssManager | Restart-Service"
 adb kill-server
 timeout 2

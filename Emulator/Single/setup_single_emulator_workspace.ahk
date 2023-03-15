@@ -17,12 +17,12 @@ WinRestore, Flipper.exe
 WinMove, 3075, 162
 WinMove,,,,, 1411, 1060
 
-Run, C:\Users\diskree\AppData\Local\Programs\Notion\Notion.exe
+Run, %USERPROFILE%\AppData\Local\Programs\Notion\Notion.exe
 WinWait, ahk_exe Notion.exe
 WinMove, -1920, 165
 WinMaximize ahk_exe Notion.exe
 
-Run, C:\Users\diskree\AppData\Local\Obsidian\Obsidian.exe
+Run, %USERPROFILE%\AppData\Local\Obsidian\Obsidian.exe
 WinWait, ahk_exe Obsidian.exe
 WinMove, 0, 0
 WinMaximize ahk_exe Obsidian.exe

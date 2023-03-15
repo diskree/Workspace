@@ -21,13 +21,13 @@ WinWait, ahk_exe Slack.exe
 WinMove, 3446, 162
 WinMove,,,,, 1034, 1060
 
-Run, C:\Users\diskree\AppData\Local\Programs\Notion\Notion.exe
+Run, %USERPROFILE%\AppData\Local\Programs\Notion\Notion.exe
 WinWait, ahk_exe Notion.exe
 WinRestore, ahk_exe Notion.exe
 WinMove, -1926, 161
 WinMove,,,,, 921, 1085
 
-Run, C:\Users\diskree\AppData\Local\Obsidian\Obsidian.exe
+Run, %USERPROFILE%\AppData\Local\Obsidian\Obsidian.exe
 WinWait, ahk_exe Obsidian.exe
 WinRestore, ahk_exe Obsidian.exe
 WinMove, -1013, 160
