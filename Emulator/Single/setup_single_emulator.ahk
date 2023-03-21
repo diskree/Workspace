@@ -9,6 +9,6 @@ If WinExist("Android Emulator - API_22")
     or WinExist("Android Emulator - API_30")
     or WinExist("Android Emulator - API_31")
     or WinExist("Android Emulator - API_33") {
-    WinMove, 2585, 197
-    WinMove,,,,, 470, 1040
+    WinMove, 2578, 27
+    WinMove,,,,, 650, 1395
 }
