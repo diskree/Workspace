@@ -2,9 +2,9 @@ WinClose, ahk_exe chrome.exe
 WinClose, ahk_exe chrome.exe
 
 Run, C:\Program Files\Google\Chrome\Application\chrome.exe
-WinWait, New Tab - Google Chrome
+WinWait, ahk_exe chrome.exe
 WinMove, -2560, 0
-WinMaximize New Tab - Google Chrome
+WinMaximize ahk_exe chrome.exe
 
 WinWait, iMe
 WinMove, 0, 0
