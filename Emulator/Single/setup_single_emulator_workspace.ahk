@@ -1,5 +1,6 @@
 WinClose, ahk_exe chrome.exe
 WinClose, ahk_exe chrome.exe
+WinClose, ahk_exe chrome.exe
 
 Run, C:\Program Files\Google\Chrome\Application\chrome.exe
 WinWait, ahk_exe chrome.exe
@@ -58,3 +59,14 @@ WinWait, Following - Twitch
 WinRestore, Following - Twitch
 WinMove, 3021, 0
 WinMove,,,,, 2106, 1446
+
+Run, D:\IDEA\bin\idea64.exe "D:\Minecraft\Dev\AchieveToDo"
+WinWait, AchieveToDo
+WinMove, 0, 0
+WinRestore, AchieveToDo
+WinMaximize AchieveToDo
+
+Run, C:\Users\diskree\AppData\Local\Google\Chrome SxS\Application\chrome.exe "https://fabricmc.net/wiki/tutorial:setup"
+WinWait, tutorial:setup [Fabric Wiki]
+WinMove, 2560, 0
+WinMaximize tutorial:setup [Fabric Wiki]
