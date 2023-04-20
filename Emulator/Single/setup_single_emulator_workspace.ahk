@@ -10,7 +10,7 @@ WinMaximize ahk_exe chrome.exe
 Run, D:\Android\Studio\Canary\bin\studio64.exe "D:\iMe"
 WinWait, iMe
 WinMove, 0, 0
-WinMaximize iMe
+WinRestore, iMe
 WinMaximize iMe
 
 Run, D:\Flipper\Flipper.exe
