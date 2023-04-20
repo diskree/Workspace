@@ -1,1 +1,0 @@
-wsl -e bash -lic "sh ~/android-studio/bin/studio.sh ~/iMe"

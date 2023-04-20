@@ -7,6 +7,7 @@ WinWait, ahk_exe chrome.exe
 WinMove, -2560, 0
 WinMaximize ahk_exe chrome.exe
 
+Run, D:\Android\Studio\Canary\bin\studio64.exe "D:\iMe"
 WinWait, iMe
 WinMove, 0, 0
 WinMaximize iMe

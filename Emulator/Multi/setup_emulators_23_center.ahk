@@ -1,7 +1,3 @@
-If WinExist("Android Emulator - API_22") {
-    WinMove, 25, 25
-    WinMove,,,,, 0, 0
-}
 If WinExist("Android Emulator - API_33") {
     WinMove, 340, 25
     WinMove,,,,, 0, 0

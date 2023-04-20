@@ -1,5 +1,4 @@
-If WinExist("Android Emulator - API_22") 
-    or WinExist("Android Emulator - API_23") 
+If WinExist("Android Emulator - API_23") 
     or WinExist("Android Emulator - API_24") 
     or WinExist("Android Emulator - API_25")
     or WinExist("Android Emulator - API_26")
