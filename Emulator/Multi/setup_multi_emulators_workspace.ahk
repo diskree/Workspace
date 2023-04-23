@@ -7,12 +7,6 @@ WinWait, ahk_exe chrome.exe
 WinMove, -2560, 0
 WinMaximize ahk_exe chrome.exe
 
-Run, D:\Android\Studio\Canary\bin\studio64.exe "D:\iMe"
-WinWait, iMe
-WinMove, 0, 0
-WinRestore, iMe
-WinMaximize iMe
-
 Run, D:\TelegramDesktop\Telegram.exe
 WinWait, ahk_exe Telegram.exe
 WinMove, 2560, 0
@@ -72,3 +66,9 @@ Run, C:\Users\diskree\AppData\Local\Google\Chrome SxS\Application\chrome.exe "ht
 WinWait, tutorial:setup [Fabric Wiki]
 WinMove, 2560, 0
 WinMaximize tutorial:setup [Fabric Wiki]
+
+Run, %comspec% /c wsl -e bash -lic "sh ~/android-studio/bin/studio.sh ~/iMe", , Hide
+WinWait, iMe
+WinMove, 0, 0
+WinRestore, iMe
+WinMaximize iMe

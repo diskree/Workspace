@@ -1,44 +1,37 @@
-call D:\Workspace\Windows\stop.bat
+call D:\Workspace\WSL\stop.bat
+start "C:\Program Files\VcXsrv\vcxsrv.exe" "D:\Workspace\Common\config.xlaunch"
+wscript.exe "D:\Workspace\Common\invisible.vbs" "D:\Workspace\ADB\start_adb_server.bat"
 wscript.exe "D:\Workspace\Common\invisible.vbs" "D:\Workspace\Emulator\start_23_emulator.bat"
 start /wait D:\AHK\AutoHotkey.exe "D:\Workspace\Emulator\wait_23_emulator.ahk"
 timeout 2
-adb devices
 wscript.exe "D:\Workspace\Common\invisible.vbs" "D:\Workspace\Emulator\start_24_emulator.bat"
 start /wait D:\AHK\AutoHotkey.exe "D:\Workspace\Emulator\wait_24_emulator.ahk"
 timeout 2
-adb devices
 wscript.exe "D:\Workspace\Common\invisible.vbs" "D:\Workspace\Emulator\start_25_emulator.bat"
 start /wait D:\AHK\AutoHotkey.exe "D:\Workspace\Emulator\wait_25_emulator.ahk"
 timeout 2
-adb devices
 wscript.exe "D:\Workspace\Common\invisible.vbs" "D:\Workspace\Emulator\start_26_emulator.bat"
 start /wait D:\AHK\AutoHotkey.exe "D:\Workspace\Emulator\wait_26_emulator.ahk"
 timeout 2
-adb devices
 wscript.exe "D:\Workspace\Common\invisible.vbs" "D:\Workspace\Emulator\start_27_emulator.bat"
 start /wait D:\AHK\AutoHotkey.exe "D:\Workspace\Emulator\wait_27_emulator.ahk"
 timeout 2
-adb devices
 wscript.exe "D:\Workspace\Common\invisible.vbs" "D:\Workspace\Emulator\start_28_emulator.bat"
 start /wait D:\AHK\AutoHotkey.exe "D:\Workspace\Emulator\wait_28_emulator.ahk"
 timeout 2
-adb devices
 wscript.exe "D:\Workspace\Common\invisible.vbs" "D:\Workspace\Emulator\start_29_emulator.bat"
 start /wait D:\AHK\AutoHotkey.exe "D:\Workspace\Emulator\wait_29_emulator.ahk"
 timeout 2
-adb devices
 wscript.exe "D:\Workspace\Common\invisible.vbs" "D:\Workspace\Emulator\start_30_emulator.bat"
 start /wait D:\AHK\AutoHotkey.exe "D:\Workspace\Emulator\wait_30_emulator.ahk"
 timeout 2
-adb devices
 wscript.exe "D:\Workspace\Common\invisible.vbs" "D:\Workspace\Emulator\start_31_emulator.bat"
 start /wait D:\AHK\AutoHotkey.exe "D:\Workspace\Emulator\wait_31_emulator.ahk"
 timeout 2
-adb devices
 wscript.exe "D:\Workspace\Common\invisible.vbs" "D:\Workspace\Emulator\start_33_emulator.bat"
 start /wait D:\AHK\AutoHotkey.exe "D:\Workspace\Emulator\wait_33_emulator.ahk"
 timeout 2
-adb devices
+wscript.exe "D:\Workspace\Common\invisible.vbs" "D:\Workspace\ADB\start_adb_client.bat"
 start D:\AHK\AutoHotkey.exe "D:\Workspace\Emulator\toggle_android_studio_emulator_panels.ahk"
 start /wait D:\AHK\AutoHotkey.exe "D:\Workspace\Emulator\hide_emulator_menus.ahk"
 start /wait VirtualDesktop.exe "-Remove:Desktop_2"
