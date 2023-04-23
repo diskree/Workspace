@@ -1,1 +1,0 @@
-WinWait, Android Emulator - API_23

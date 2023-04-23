@@ -1,1 +1,0 @@
-emulator -no-audio -avd API_29 -no-boot-anim
