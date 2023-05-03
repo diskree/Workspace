@@ -85,7 +85,7 @@ Run, D:\Minecraft\MultiMC\MultiMC.exe,,, multimc_pid
 WinWait, ahk_pid %multimc_pid%
 WinMove,,, 942, 334, 675, 675
 
-Run, D:\Chatterino\Chatterino.exe,,, chatterino_pid
+Run, D:\Chatterino7\chatterino.exe,,, chatterino_pid
 WinWait, ahk_pid %chatterino_pid%
 WinMove,,, 2560, 0, 470, 1440
 
