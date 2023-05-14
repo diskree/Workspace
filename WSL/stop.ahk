@@ -1,4 +1,3 @@
-RunWait, wsl --shutdown, , Hide
 RunWait, wsl -e bash -lic "rm ~/java_error_in_studio*", , Hide
 RunWait, powershell -command "Get-Service LxssManager | Restart-Service", , Hide
 RunWait, adb kill-server, , Hide
