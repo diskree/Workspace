@@ -1,4 +1,4 @@
-RunWait, del /s /f /q %USERPROFILE%\Recent\*.*
-RunWait, del /s /f /q C:\Windows\Prefetch\*.*
-RunWait, del /s /f /q C:\Windows\Temp\*.*
-RunWait, del /s /f /q %USERPROFILE%\AppData\Local\Temp\*.*
+RunWait, %ComSpec% /c del /s /f /q "%USERPROFILE%\Recent\*.*"
+RunWait, %ComSpec% /c del /s /f /q "C:\Windows\Prefetch\*.*"
+RunWait, %ComSpec% /c del /s /f /q "C:\Windows\Temp\*.*"
+RunWait, %ComSpec% /c del /s /f /q "%USERPROFILE%\AppData\Local\Temp\*.*"
