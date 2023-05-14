@@ -83,7 +83,7 @@ Run, D:\TelegramDesktop\Telegram.exe,,, telegram_pid
 WinWait, ahk_pid %telegram_pid%
 WinMove,,, 2560, 0, 1281, 1440
 
-Run, D:\Slack\Update.exe --processStart Slack.exe
+Run, %USERPROFILE%\AppData\Local\slack\Update.exe --processStart slack.exe
 WinWait, ahk_exe slack.exe
 WinMove,,, 3839, 0, 1281, 1440
 
