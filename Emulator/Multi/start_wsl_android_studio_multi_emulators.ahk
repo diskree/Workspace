@@ -1,4 +1,3 @@
-RunWait, wsl --shutdown, , Hide
 RunWait, "D:\Workspace\WSL\stop.ahk"
 Run, "D:\Workspace\Common\config.xlaunch", , Hide
 RunWait, adb kill-server, , Hide
